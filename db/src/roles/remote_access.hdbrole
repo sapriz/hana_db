@@ -1,0 +1,12 @@
+{
+  "role": {
+    "name": "REMOTE_ACCESS",
+    "object_privileges": [
+      {
+        "name": "V_MASTER_EMPLOYEE",
+        "type": "VIEW",
+        "privileges": ["SELECT"]
+      }
+    ]
+  }
+}

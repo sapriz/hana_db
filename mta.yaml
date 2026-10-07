@@ -1,0 +1,12 @@
+_schema-version: "2.1"
+ID: Remote_DB
+version: 0.0.2
+modules:
+- name: db
+  type: hdb
+  path: db
+  requires:
+  - name: master_hdi_container
+resources:
+- name: master_hdi_container
+  type: org.cloudfoundry.existing-service
